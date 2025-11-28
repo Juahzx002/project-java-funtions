@@ -1,7 +1,8 @@
 // Estructura básica del proyecto Java
 public class App {
     public static void main(String[] args) {
-        System.out.println("¡Hola, mundo!");
+        // CORRECCIÓN: Se elimina el "x:"
+        System.out.println("¡Hola, Mundo!"); 
     }
 }
 
@@ -16,6 +17,11 @@ void saludarPersona(String nombre) {
 }
 
 // función con parámetros y con retorno implementada
-int sumar(int a, int b) {
-    return a + b;
-}
+static int sumar(int num1, int num2) {
+        
+        // Operación interna
+        int total = num1 + num2;
+
+        // return: Devuelve el valor final y termina la función.
+        return total;
+    }
