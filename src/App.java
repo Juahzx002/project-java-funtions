@@ -14,3 +14,8 @@ void saludar() {
 void saludarPersona(String nombre) {
     System.out.println("¡Hola, " + nombre + "!");
 }
+
+// función con parámetros y con retorno implementada
+int sumar(int a, int b) {
+    return a + b;
+}
