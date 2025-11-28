@@ -10,3 +10,7 @@ void saludar() {
     System.out.println("¡Bienvenido a la programación en Java!");
 }
 
+// función con parámetros y sin retorno implementada
+void saludarPersona(String nombre) {
+    System.out.println("¡Hola, " + nombre + "!");
+}
